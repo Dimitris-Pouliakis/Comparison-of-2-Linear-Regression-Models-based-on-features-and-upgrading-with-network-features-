@@ -1,0 +1,2 @@
+# Comparison-of-2-Linear-Regression-Models-based-on-features-and-upgrading-with-network-features-
+The scenario for this project is the Hospital infection control. The main question is, if we can track transfers of patient between different wards 14-days before a studying/observation point that we set it as the time = 0, can we predict for the next 14 days, which clusters they will get infected if there are some active ones at the time = 0? 
