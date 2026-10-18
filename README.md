@@ -10,18 +10,18 @@ The scenario for this project is the Hospital infection control. The main questi
 The synthetic dataset is available online @: 'https://raw.githubusercontent.com/mikeauth/leap/main/hospital'
 It includes in total 120 Wards, representing as nodes for the aspect of network analysis, for those not familiar to network analysis, and 420 established direct transfers between wards as links, for the network and doesn't reflect real hospital data. It made only for educational purposes.
 
-The details for the dataset for those interested in it are the following:
-Wards: **ward_id** Unique identifier W001 to W120; for joining, never a predictor.
+The details for the dataset for those interested in it are the following: <br>
+Wards: **ward_id** Unique identifier W001 to W120; for joining, never a predictor. <br>
 Wards: **occupancy_ratio** Simulated occupied-bed fraction, drawn uniformly from 0.48 to 0.96, rounded to three
-decimals.
+decimals. <br>
 Wards: **device_use_share** Simulated fraction of patients with an invasive device, drawn uniformly from 0.07 to
-0.48, rounded to three decimals.
-Wards: **active_cluster_at_start** Exactly 18 uniformly chosen wards have value 1 at the observation point.
+0.48, rounded to three decimals. <br>
+Wards: **active_cluster_at_start** Exactly 18 uniformly chosen wards have value 1 at the observation point. <br>
 Wards: **new_cluster_later** Later binary outcome drawn only for the other 102 wards; blank for the 18 initially
-affected wards. There are 39 later positives in this fixed release.
+affected wards. There are 39 later positives in this fixed release. <br>
 Transfers: **source_ward_id**,
 **destination_ward_id**
-Ordered sender and receiver for a pre-observation transfer connection.
+Ordered sender and receiver for a pre-observation transfer connection. <br>
 Transfers: **transfer_count** Synthetic number of transfers on that ordered link during the recording window,
 integer 1 to 9.
 
